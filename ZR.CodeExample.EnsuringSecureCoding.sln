@@ -1,0 +1,138 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputValidationWithParameterizedQueries", "InputValidationWithParameterizedQueries\InputValidationWithParameterizedQueries.csproj", "{8C9CE106-F33E-49A9-9DD2-5FA802CD4560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputSanitizationPreventingXSS", "InputSanitizationPreventingXSS\InputSanitizationPreventingXSS.csproj", "{F51AFB4A-186B-415A-B3E0-907CE274A853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationWithOAuth2.0", "AuthenticationWithOAuth2.0\AuthenticationWithOAuth2.0.csproj", "{7A8FA1D0-1516-4D25-B864-0BC5C9A52A84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationWithRoleBasedAccessControl", "AuthorizationWithRoleBasedAccessControl\AuthorizationWithRoleBasedAccessControl.csproj", "{C40FFB8E-2C17-4C5A-B3C9-78D4C0266541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePasswordStorageWithSaltedHashing", "SecurePasswordStorageWithSaltedHashing\SecurePasswordStorageWithSaltedHashing.csproj", "{28FCD4EE-DF9A-40F0-82C5-665BF54AADA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptingSensitiveDataUsingAES", "EncryptingSensitiveDataUsingAES\EncryptingSensitiveDataUsingAES.csproj", "{6B03D141-0320-4859-A316-FF254418438A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingParameterizedQueries", "UsingParameterizedQueries\UsingParameterizedQueries.csproj", "{C55DD3CE-89E0-4374-B089-D03193FD8515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvoidingDynamicCodeExecutionWithUserInput", "AvoidingDynamicCodeExecutionWithUserInput\AvoidingDynamicCodeExecutionWithUserInput.csproj", "{42072132-E5D1-45C8-889B-B5A836B72335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandlingWithTryCatch", "ErrorHandlingWithTryCatch\ErrorHandlingWithTryCatch.csproj", "{F78ACC5F-87D5-49DD-B1B2-22CA94A814D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingWithLoggingFramework", "LoggingWithLoggingFramework\LoggingWithLoggingFramework.csproj", "{A9F20519-BBD2-4313-AEE5-3F20190B1A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureSessionManagement", "SecureSessionManagement\SecureSessionManagement.csproj", "{CB1D6EB3-A009-4BCA-B618-B40F746FE8FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureSessionManagementNative", "SecureSessionManagementNative\SecureSessionManagementNative.csproj", "{FD895BFC-0E7E-46A6-8B06-A7ED552AD099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingHttpsOrTlsfForSecureCommunication", "UsingHttpsOrTlsfForSecureCommunication\UsingHttpsOrTlsfForSecureCommunication.csproj", "{B48952C3-38E7-4629-9D28-00094D41AC5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input Validation with Parameterized Queries (Preventing SQL Injection)", "Input Validation with Parameterized Queries (Preventing SQL Injection)", "{F466D801-14D3-4A60-8A7C-4292B52D2788}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input Sanitization (Preventing XSS)", "Input Sanitization (Preventing XSS)", "{3B45BF09-32B8-4807-9ACE-F460AFAA0E8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication with OAuth 2.0", "Authentication with OAuth 2.0", "{7245E58A-472A-48C6-8E20-1EFF7F6DFBD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authorization with Role-Based Access Control (RBAC)", "Authorization with Role-Based Access Control (RBAC)", "{8D1701C6-C5B2-4369-B906-8FEC7DBE1257}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Secure Password Storage with Salted Hashing", "Secure Password Storage with Salted Hashing", "{70D08E87-029A-4079-8845-446EB624E184}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Encrypting Sensitive Data using AES (Advanced Encryption Standard)", "Encrypting Sensitive Data using AES (Advanced Encryption Standard)", "{B50568E3-3AD6-4764-A0FD-F76D88459605}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Using HTTPS or TLS for Secure Communication", "Using HTTPS or TLS for Secure Communication", "{9C5A1EAF-A036-44BE-85C8-35C91CDC3C03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Using Parameterized Queries", "Using Parameterized Queries", "{89D4DB5F-7A0A-4E63-81FA-B150CF956203}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Avoiding Dynamic Code Execution with User Input", "Avoiding Dynamic Code Execution with User Input", "{E44130F3-7923-4A57-AE7B-98BE058383C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Error Handling with Try-Catch", "Error Handling with Try-Catch", "{45E3E2B8-33D5-4606-B7BD-DB884A46783C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging with a Logging Framework (using Serilog as an example)", "Logging with a Logging Framework (using Serilog as an example)", "{F9ED4A59-3A66-4BDA-AF0F-C973AD905DCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Secure Session Management with ASP.NET Core", "Secure Session Management with ASP.NET Core", "{704CA631-249A-449A-8860-07BD117A4EBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Secure Session Management with Native C#", "Secure Session Management with Native C#", "{D363B9C6-EF15-44DF-9E41-CC6D8BD2A7EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C9CE106-F33E-49A9-9DD2-5FA802CD4560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9CE106-F33E-49A9-9DD2-5FA802CD4560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9CE106-F33E-49A9-9DD2-5FA802CD4560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9CE106-F33E-49A9-9DD2-5FA802CD4560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51AFB4A-186B-415A-B3E0-907CE274A853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51AFB4A-186B-415A-B3E0-907CE274A853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51AFB4A-186B-415A-B3E0-907CE274A853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51AFB4A-186B-415A-B3E0-907CE274A853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8FA1D0-1516-4D25-B864-0BC5C9A52A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8FA1D0-1516-4D25-B864-0BC5C9A52A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8FA1D0-1516-4D25-B864-0BC5C9A52A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8FA1D0-1516-4D25-B864-0BC5C9A52A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40FFB8E-2C17-4C5A-B3C9-78D4C0266541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40FFB8E-2C17-4C5A-B3C9-78D4C0266541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40FFB8E-2C17-4C5A-B3C9-78D4C0266541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40FFB8E-2C17-4C5A-B3C9-78D4C0266541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FCD4EE-DF9A-40F0-82C5-665BF54AADA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FCD4EE-DF9A-40F0-82C5-665BF54AADA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FCD4EE-DF9A-40F0-82C5-665BF54AADA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FCD4EE-DF9A-40F0-82C5-665BF54AADA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B03D141-0320-4859-A316-FF254418438A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B03D141-0320-4859-A316-FF254418438A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B03D141-0320-4859-A316-FF254418438A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B03D141-0320-4859-A316-FF254418438A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55DD3CE-89E0-4374-B089-D03193FD8515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55DD3CE-89E0-4374-B089-D03193FD8515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55DD3CE-89E0-4374-B089-D03193FD8515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55DD3CE-89E0-4374-B089-D03193FD8515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42072132-E5D1-45C8-889B-B5A836B72335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42072132-E5D1-45C8-889B-B5A836B72335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42072132-E5D1-45C8-889B-B5A836B72335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42072132-E5D1-45C8-889B-B5A836B72335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F78ACC5F-87D5-49DD-B1B2-22CA94A814D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78ACC5F-87D5-49DD-B1B2-22CA94A814D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78ACC5F-87D5-49DD-B1B2-22CA94A814D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78ACC5F-87D5-49DD-B1B2-22CA94A814D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F20519-BBD2-4313-AEE5-3F20190B1A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F20519-BBD2-4313-AEE5-3F20190B1A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F20519-BBD2-4313-AEE5-3F20190B1A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F20519-BBD2-4313-AEE5-3F20190B1A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB1D6EB3-A009-4BCA-B618-B40F746FE8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB1D6EB3-A009-4BCA-B618-B40F746FE8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB1D6EB3-A009-4BCA-B618-B40F746FE8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB1D6EB3-A009-4BCA-B618-B40F746FE8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD895BFC-0E7E-46A6-8B06-A7ED552AD099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD895BFC-0E7E-46A6-8B06-A7ED552AD099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD895BFC-0E7E-46A6-8B06-A7ED552AD099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD895BFC-0E7E-46A6-8B06-A7ED552AD099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48952C3-38E7-4629-9D28-00094D41AC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48952C3-38E7-4629-9D28-00094D41AC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48952C3-38E7-4629-9D28-00094D41AC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48952C3-38E7-4629-9D28-00094D41AC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C9CE106-F33E-49A9-9DD2-5FA802CD4560} = {F466D801-14D3-4A60-8A7C-4292B52D2788}
+		{F51AFB4A-186B-415A-B3E0-907CE274A853} = {3B45BF09-32B8-4807-9ACE-F460AFAA0E8D}
+		{7A8FA1D0-1516-4D25-B864-0BC5C9A52A84} = {7245E58A-472A-48C6-8E20-1EFF7F6DFBD3}
+		{C40FFB8E-2C17-4C5A-B3C9-78D4C0266541} = {8D1701C6-C5B2-4369-B906-8FEC7DBE1257}
+		{28FCD4EE-DF9A-40F0-82C5-665BF54AADA8} = {70D08E87-029A-4079-8845-446EB624E184}
+		{6B03D141-0320-4859-A316-FF254418438A} = {B50568E3-3AD6-4764-A0FD-F76D88459605}
+		{C55DD3CE-89E0-4374-B089-D03193FD8515} = {89D4DB5F-7A0A-4E63-81FA-B150CF956203}
+		{42072132-E5D1-45C8-889B-B5A836B72335} = {E44130F3-7923-4A57-AE7B-98BE058383C3}
+		{F78ACC5F-87D5-49DD-B1B2-22CA94A814D3} = {45E3E2B8-33D5-4606-B7BD-DB884A46783C}
+		{A9F20519-BBD2-4313-AEE5-3F20190B1A25} = {F9ED4A59-3A66-4BDA-AF0F-C973AD905DCB}
+		{CB1D6EB3-A009-4BCA-B618-B40F746FE8FF} = {704CA631-249A-449A-8860-07BD117A4EBF}
+		{FD895BFC-0E7E-46A6-8B06-A7ED552AD099} = {D363B9C6-EF15-44DF-9E41-CC6D8BD2A7EB}
+		{B48952C3-38E7-4629-9D28-00094D41AC5E} = {9C5A1EAF-A036-44BE-85C8-35C91CDC3C03}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6B7E346-525B-43B4-A59E-2962FB6ED85F}
+	EndGlobalSection
+EndGlobal

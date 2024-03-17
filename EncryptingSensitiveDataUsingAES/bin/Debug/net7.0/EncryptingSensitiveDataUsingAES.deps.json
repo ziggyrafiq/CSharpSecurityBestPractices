@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "EncryptingSensitiveDataUsingAES/1.0.0": {
+        "runtime": {
+          "EncryptingSensitiveDataUsingAES.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EncryptingSensitiveDataUsingAES/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
